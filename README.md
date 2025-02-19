@@ -1,4 +1,6 @@
 # StormsGlitchedChaosCards
+This a WIP mod for rounds.
+
 Currently trying to fix the following error when trying to launch game:
 
 [Warning: Unity Log] ClassHanlder StormsGlitchedChaosCards.Cards.StormCards.SeedofaStormClass Init function is taking a long time to finish, this could be a bug.
