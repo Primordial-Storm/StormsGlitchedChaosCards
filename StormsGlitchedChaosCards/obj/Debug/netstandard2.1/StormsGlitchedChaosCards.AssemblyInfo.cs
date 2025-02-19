@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StormsGlitchedChaosCards")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8bd99eecf48a76ae9992c1f9223d49e350cba50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7955ed38688a6dd75115f4d5ae7570f7d361bbea")]
 [assembly: System.Reflection.AssemblyProductAttribute("StormsGlitchedChaosCards")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StormsGlitchedChaosCards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
