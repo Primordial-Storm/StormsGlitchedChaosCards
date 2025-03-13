@@ -26,6 +26,10 @@ namespace StormsGlitchedChaosCards
 
     [BepInDependency("root.classes.manager.reborn", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("com.willis.rounds.modsplus", BepInDependency.DependencyFlags.HardDependency)]
+    //[BepInDependency("com.Poppycars.PSA.Id", BepInDependency.DependencyFlags.HardDependency)]
+    //[BepInDependency("com.willuwontu.rounds.managers", BepInDependency.DependencyFlags.HardDependency)]
+    //[BepInDependency("com.root.projectile.size.patch", BepInDependency.DependencyFlags.HardDependency)]
+    //[BepInDependency("com.willis.rounds.raritylib", BepInDependency.DependencyFlags.HardDependency)]
     [BepInDependency("root.rarity.lib", BepInDependency.DependencyFlags.HardDependency)]
 
     // Declares our mod to Bepin
@@ -41,7 +45,7 @@ namespace StormsGlitchedChaosCards
         public const string ModInitials = "SGCC";
         public static SGCC instance { get; private set; }
         public const string Gambit = "Storms Gambit Cards";
-        private bool debug = true; 
+        private bool debug = true;
 
         public List<CardCategory> categories = new List<CardCategory>();
         public static CardCategory gambitCategory;
@@ -83,5 +87,18 @@ namespace StormsGlitchedChaosCards
                 UnityEngine.Debug.Log(message);
             }
         }
+
+        /*public static void SendDebugLog(object message, bool masterClientOnly = false)
+        {
+            if (!(masterClientOnly && !(PhotonNetwork.IsMasterClient || PhotonNetwork.OfflineMode)))
+            {
+                return;
+            }
+            NetworkingManager.RPC(typeof(SGCC), nameof(SGCC.URPCA_DebugLog), message);
+        }
+        public static void URPCA_DebugLog(object message)
+        {
+            SGCC.instance.DebugLog(message);
+        }*/
     }
 }
