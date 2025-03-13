@@ -5,7 +5,7 @@ using UnboundLib.Utils;
 using UnityEngine.Profiling;
 
 
-// Handles class setup for Astronomer
+// Handles class setup for Seed of a Storm class
 
 
 namespace StormsGlitchedChaosCards.Cards.StormCards
@@ -26,10 +26,6 @@ namespace StormsGlitchedChaosCards.Cards.StormCards
             ClassesRegistry.Register(SG4.Card, CardType.Card, SeedofaStorm.Card);
             ClassesRegistry.Register(SG5.Card, CardType.Card, SeedofaStorm.Card);
             ClassesRegistry.Register(StormRavaged.Card, CardType.Card, SeedofaStorm.Card);
-        }
-        public override IEnumerator PostInit()
-        {
-            yield break;
         }
     }
 }

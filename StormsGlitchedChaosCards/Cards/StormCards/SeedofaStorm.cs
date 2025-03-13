@@ -1,17 +1,9 @@
 ﻿using ModdingUtils.Utils;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
 using UnboundLib;
 using UnboundLib.Cards;
 using UnboundLib.Utils;
 using UnityEngine;
-//using ClassesManagerReborn;
 using ClassesManagerReborn.Util;
-//using System.Diagnostics;
-//using StormsGlitchedChaosCards;
 using RarityLib.Utils;
 
 
@@ -37,13 +29,13 @@ namespace StormsGlitchedChaosCards.Cards.StormCards
         }
         public override void OnAddCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
-            //player.gameObject.GetOrAddComponent<SGLivingStormMono>();
+            
             SGCC.instance.DebugLog($"[{SGCC.ModInitials}][Card] {GetTitle()} has been added to player {player.playerID}.");
         }
         public override void OnRemoveCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
 
-            //Destroy(player.gameObject.GetOrAddComponent<SGLivingStormMono>());
+            
             SGCC.instance.DebugLog($"[{SGCC.ModInitials}][Card] {GetTitle()} has been removed to player {player.playerID}.");
         }
         protected override string GetTitle()
