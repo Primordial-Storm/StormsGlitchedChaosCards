@@ -19,7 +19,7 @@ namespace StormsGlitchedChaosCards.Cards.StormCards
 {
     class SeedofaStorm : CustomCard
     {
-        public static CardInfo? Card = null;
+        public static CardInfo Card = null;
         internal static CardInfo card = null!;
         public override void Callback()
         {

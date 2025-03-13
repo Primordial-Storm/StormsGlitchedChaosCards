@@ -5,7 +5,7 @@ using UnboundLib.Utils;
 using UnityEngine.Profiling;
 
 
-// Handles class setup for Astronomer
+// Handles class setup for Seed of a Storm class
 
 
 namespace StormsGlitchedChaosCards.Cards.StormCards
